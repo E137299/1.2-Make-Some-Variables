@@ -1,54 +1,41 @@
-# 1.2-Make-Some-Variables
-
-Notes: [Variables](https://colab.research.google.com/drive/1JSrOECf5FeozLVAlGu7IDqGoR6bf3mR1?usp=sharing)
+# 1.2 Python Basics: Variables, Data Types, and Printing
 
 
+## Python Notes: 
+- Class Notes:[Variables, Data Types, Casting and print()](https://colab.research.google.com/drive/1JSrOECf5FeozLVAlGu7IDqGoR6bf3mR1?usp=sharing)
+- W3Schools: [Variables](https://www.w3schools.com/python/python_variables.asp)
+- W3Schools: [Data Types](https://www.w3schools.com/python/python_datatypes.asp)
+- W3Schools: [Numbers](https://www.w3schools.com/python/python_numbers.asp)
+- W3Schools: [Data Types](https://www.w3schools.com/python/python_casting.asp)
+- W3Schools: [Strings](https://www.w3schools.com/python/python_strings.asp)
+- W3Schools: [Concatenating Strings and Printing](https://www.w3schools.com/python/python_strings_concatenate.asp)
 
-**Objective:**  
-Write a Python script to practice creating variables, assigning them initial values, and reassigning them new values.
+## Objective:
+In this assignment, you'll practice creating variables, reassigning variables, casting data types, and printing values with different data types. These are fundamental skills you'll use frequently in Python programming.
 
-**Instructions:**  
-**Step 1: Variable Creation and Initial Assignment**
-
-1. Create a variable named `age` and assign it an integer value representing your age.
-2. Create a variable named `name` and assign it a string value with your first name.
-3. Create a variable named `height` and assign it a float value representing your height in meters.
-
-**Step 2: Output**
-
-4. Print the values of `name`, `age`, and `height`.
-
-**Step 3: Output**
-
-5. Print the statement: "Sometime later ..."
+### Instructions:
+**1) Creating Variables**:
+- Create a variable called *name* and assign it your name as a string.
+- Create a variable called *age* and assign it your age as an integer.
+- Create a variable called *height* and assign it your height in meters (e.g., 1.75) as a float.
+- Create a variable called *is_student* and assign it a boolean value indicating whether you are currently a student (True or False).
 
 
-**Step 4: Variable Reassignment**
+**3) Printing with Strings (First Time)**:
+- Print a sentence that says "Hello, my name is [*name*] and I am [*age*] years old." (use the *name* and *age* variables).
+    - Cast the *age* variable to a string in order to join it with the rest of the sentence. Hint: str(number)
 
-6. Reassign a new value to the `age` variable to represent your age next year (increment the value by 1).
-7. Reassign a new value to the `height` variable to represent a slight change in height (add 1" to the original value).
+**4) Reassigning Variables**:
+- Reassign the *age* variable to your age next year.
+- Reassign the *height* variable to your estimated height in meters (e.g., 1.78).
 
-**Step 5: Output**
+**5) Printing with Strings (Second Time)**:
+- Print a sentence that says "Next year, I will be [*age*] years old." 
+    - Cast the *age* variable to a string in order to join it with the rest of the sentence. Hint: str(number)
+- Print a sentence that says "I am [*height*] meters tall." 
+    - Cast the *height* variable to a string in order to join it with the rest of the sentence. Hint: str(number)
+- Print a sentence that says "It is [*is_student*] that I am currently a student." (use the *is_student* variable).
+    - - Cast the *is_student* variable to a string in order to join it with the rest of the sentence. Hint: str(boolean)
 
-8. Print the values of `name`, `age`, and `height` after the reassignment.
 
-**Example**
-
-Assume the initial values are:
-- `age = 15`
-- `name = "Tom"`
-- `height = 5'9"`
-
-After reassignment, if you update `age` to `16` and `height` to `5'10"`, the output should be:
-```
-Name: Tom
-Age: 15
-Height: 5'9"
-
-Sometime later ...
-
-Name: Tom
-Age: 16
-Height: 5'10"
-```
 
